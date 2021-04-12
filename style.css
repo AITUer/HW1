@@ -48,14 +48,15 @@ html, body, .grid-container { height: 100%; margin: 0; }
     "vk git telegram";
   grid-area: contacts;
   margin-left: 20%;
+  margin-bottom: 0;
 }
-.vk { grid-area: vk;margin-left: 5%;margin-right: 5%;}
-.telegram { grid-area: telegram;margin-left: 5%;margin-right: 5%;}
-.git { grid-area: git;margin-left: 5%;margin-right: 5%;}
+.vk { grid-area: vk;margin-left: 5%;margin-right: 5%;margin-bottom: 0%;}
+.telegram { grid-area: telegram;margin-left: 5%;margin-right: 5%;margin-bottom: 0%;}
+.git { grid-area: git;margin-left: 5%;margin-right: 5%;margin-bottom: 0%;}
 .text { grid-area: text; }
 
 .qwerty{
   margin-left: 10%;
-  margin-top: 75%;
+  margin-top: 70%;
 }
 
